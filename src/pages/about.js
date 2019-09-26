@@ -9,11 +9,6 @@ import FourColumn from '../components/fourcolumn/FourColumn';
 export default () => (
   <SampleSite>
 
-    <Title />
-    <AboutSection />
-    <FeaturesSection />
-    {/* <FourColumn /> */}
-
   </SampleSite>
 );
 
