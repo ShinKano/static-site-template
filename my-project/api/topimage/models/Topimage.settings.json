@@ -1,0 +1,20 @@
+{
+  "connection": "default",
+  "collectionName": "topimages",
+  "info": {
+    "name": "topimage",
+    "description": "A big image for the top page."
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "comment": ""
+  },
+  "attributes": {
+    "topimage": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload"
+    }
+  }
+}

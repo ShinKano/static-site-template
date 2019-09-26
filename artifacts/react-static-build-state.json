@@ -1,0 +1,61 @@
+{
+  "entry": "/Users/Shinnosuke/Documents/b5react/blog/src/index.js",
+  "prefetchRate": 5,
+  "maxThreads": null,
+  "disableRoutePrefixing": false,
+  "outputFileRate": 100,
+  "extensions": [
+    ".js",
+    ".jsx"
+  ],
+  "minLoadTime": 200,
+  "disablePreload": false,
+  "disableRuntime": false,
+  "preloadPollInterval": 300,
+  "productionSourceMaps": false,
+  "plugins": [
+    [
+      "/Users/Shinnosuke/Documents/b5react/blog/node_modules/react-static-plugin-source-filesystem/node.api.js",
+      {
+        "location": "/Users/Shinnosuke/Documents/b5react/blog/src/pages"
+      }
+    ],
+    "/Users/Shinnosuke/Documents/b5react/blog/node_modules/react-static-plugin-reach-router/browser.api.js",
+    "/Users/Shinnosuke/Documents/b5react/blog/node_modules/react-static-plugin-sitemap/dist/node.api.js",
+    "/Users/Shinnosuke/Documents/b5react/blog"
+  ],
+  "paths": {
+    "ROOT": "/Users/Shinnosuke/Documents/b5react/blog",
+    "SRC": "/Users/Shinnosuke/Documents/b5react/blog/src",
+    "DIST": "/Users/Shinnosuke/Documents/b5react/blog/dist",
+    "ASSETS": "/Users/Shinnosuke/Documents/b5react/blog/dist",
+    "PLUGINS": "/Users/Shinnosuke/Documents/b5react/blog/plugins",
+    "TEMP": "/Users/Shinnosuke/Documents/b5react/blog/tmp",
+    "ARTIFACTS": "/Users/Shinnosuke/Documents/b5react/blog/artifacts",
+    "PUBLIC": "/Users/Shinnosuke/Documents/b5react/blog/public",
+    "NODE_MODULES": "/Users/Shinnosuke/Documents/b5react/blog/node_modules",
+    "EXCLUDE_MODULES": "/Users/Shinnosuke/Documents/b5react/blog/node_modules",
+    "PACKAGE": "/Users/Shinnosuke/Documents/b5react/blog/package.json",
+    "HTML_TEMPLATE": "/Users/Shinnosuke/Documents/b5react/blog/dist/index.html",
+    "STATIC_DATA": "/Users/Shinnosuke/Documents/b5react/blog/dist/staticData"
+  },
+  "devServer": {
+    "host": "http://localhost",
+    "port": 3000
+  },
+  "babelExcludes": [],
+  "siteRoot": "",
+  "basePath": "",
+  "publicPath": "/",
+  "assetsPath": "",
+  "extractCssChunks": false,
+  "inlineCss": false,
+  "terser": {
+    "terserOptions": {
+      "mangle": {},
+      "parse": {},
+      "compress": {},
+      "output": {}
+    }
+  }
+}
