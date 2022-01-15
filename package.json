@@ -14,7 +14,7 @@
     "@fortawesome/react-fontawesome": "^0.1.4",
     "@reach/router": "^1.2.1",
     "axios": "^0.18.0",
-    "marked": "^0.7.0",
+    "marked": "^4.0.10",
     "react": "^16.8.2",
     "react-dom": "^16.8.2",
     "react-html-parser": "^2.0.2",
